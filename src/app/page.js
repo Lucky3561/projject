@@ -1,3 +1,4 @@
+
 // import TestAnimation from "@/components/TestAnimation";
 // // import video from "../assets/video.mp4";
 
@@ -54,7 +55,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative pb-[100px]">
         {/* Sections */}
         <Section
           id="what-we-do"
@@ -82,13 +83,13 @@ Create unforgettable corporate experiences that resonate with your stakeholders.
 We provide bespoke services tailored to your unique business challenges, whether it’s navigating legal and regulatory landscapes, enhancing brand positioning, or managing high-value assets. Our flexible approach ensures we meet your specific needs with precision.
 "
    />
-        <div className="absolute inset-0 flex  items-center mb-[-70px]">
+        <div className="absolute inset-0 flex  items-center mt-[330px]">
           <TestAnimation />
         </div>
         </div>
 
-        <div className="relative">
-        <Section
+        {/* <div className="relative"> */}
+        {/* <Section
           id="who-we-are"
           title="02 - WHO WE ARE"
           content="An Elite concierge service founded on excellence. Emporium Concierge empowers your business to expand its global reach and unlock new growth potential. We offer exceptional support to navigate emerging markets, connect with top-tier talent, and tap into our extensive network of industry expertise. Our vast resources enable us to rapidly connect your company with the partnerships and opportunities needed to advance your strategic vision.
@@ -102,9 +103,9 @@ subcontent2="With Emporium Concierge, you don’t just gain access—you gain a 
         </div>
         
 
-        </div>
+        </div> */}
 
-        <Section
+        {/* <Section
           id="register"
           title="03 --- REGISTER"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -113,7 +114,7 @@ subcontent2="With Emporium Concierge, you don’t just gain access—you gain a 
           id="talk-to-us"
           title="04 - TALK TO US"
           content="If you're a business looking to amplify your influence or a talent ready to make an impact, let's connect. Together, we can unlock new possibilities and achieve extraordinary results. Reach out to discover how Emporium Concierge can elevate your vision and turn ambition into reality."
-        />
+        /> */}
 
         {/* TestAnimation positioned relatively to the sections */}
         
